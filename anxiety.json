@@ -1,0 +1,123 @@
+{
+  "personalDetails": [
+    {
+      "label": "Name",
+      "type": "text",
+      "name": "Name",
+      "id": "name",
+      "required": true
+    },
+    {
+      "label": "Branch",
+      "type": "select",
+      "name": "Branch",
+      "id": "branch",
+      "options": ["CSE", "ECE", "EEE", "ME", "CE"],
+      "required": true
+    },
+    {
+      "label": "Year/Sem",
+      "type": "select",
+      "name": "YearSem",
+      "id": "year-sem",
+      "options": ["1st Year 1st Sem", "1st Year 2nd Sem", "2nd Year 1st Sem", "2nd Year 2nd Sem", "3rd Year 1st Sem", "3rd Year 2nd Sem", "4th Year 1st Sem", "4th Year 2nd Sem"],
+      "required": true
+    },
+    {
+      "label": "Roll No.",
+      "type": "text",
+      "name": "RollNo",
+      "id": "roll-no",
+      "required": true
+    },
+    {
+      "label": "Gender",
+      "type": "radio",
+      "name": "Gender",
+      "options": [
+        { "label": "M", "value": "M", "id": "gender-m" },
+        { "label": "F", "value": "F", "id": "gender-f" }
+      ],
+      "required": true
+    },
+    {
+      "label": "Contact No.",
+      "type": "tel",
+      "name": "ContactNo",
+      "id": "contact-no",
+      "required": true
+    }
+  ],
+  "anxietyQuestions": [
+    {
+      "id": "Q1",
+      "label": "Feeling nervous, anxious or on edge",
+      "options": [
+        { "label": "Not at all", "value": "0" },
+        { "label": "Several days", "value": "1" },
+        { "label": "More than half the days", "value": "2" },
+        { "label": "Nearly every day", "value": "3" }
+      ]
+    },
+    {
+      "id": "Q2",
+      "label": "Not being able to stop or control worrying",
+      "options": [
+        { "label": "Not at all", "value": "0" },
+        { "label": "Several days", "value": "1" },
+        { "label": "More than half the days", "value": "2" },
+        { "label": "Nearly every day", "value": "3" }
+      ]
+    },
+    {
+      "id": "Q3",
+      "label": "Worrying too much about different things",
+      "options": [
+        { "label": "Not at all", "value": "0" },
+        { "label": "Several days", "value": "1" },
+        { "label": "More than half the days", "value": "2" },
+        { "label": "Nearly every day", "value": "3" }
+      ]
+    },
+    {
+      "id": "Q4",
+      "label": "Trouble relaxing",
+      "options": [
+        { "label": "Not at all", "value": "0" },
+        { "label": "Several days", "value": "1" },
+        { "label": "More than half the days", "value": "2" },
+        { "label": "Nearly every day", "value": "3" }
+      ]
+    },
+    {
+      "id": "Q5",
+      "label": "Being so restless that it is hard to sit still",
+      "options": [
+        { "label": "Not at all", "value": "0" },
+        { "label": "Several days", "value": "1" },
+        { "label": "More than half the days", "value": "2" },
+        { "label": "Nearly every day", "value": "3" }
+      ]
+    },
+    {
+      "id": "Q6",
+      "label": "Becoming easily annoyed or irritable",
+      "options": [
+        { "label": "Not at all", "value": "0" },
+        { "label": "Several days", "value": "1" },
+        { "label": "More than half the days", "value": "2" },
+        { "label": "Nearly every day", "value": "3" }
+      ]
+    },
+    {
+      "id": "Q7",
+      "label": "Feeling afraid as if something awful/very bad might happen",
+      "options": [
+        { "label": "Not at all", "value": "0" },
+        { "label": "Several days", "value": "1" },
+        { "label": "More than half the days", "value": "2" },
+        { "label": "Nearly every day", "value": "3" }
+      ]
+    }
+  ]
+}
